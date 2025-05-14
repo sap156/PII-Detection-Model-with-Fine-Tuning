@@ -1,0 +1,61 @@
+# .gitignore for Financial PII Detection Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files and directories
+Financial-PII-Detection-Expert/
+outputs/
+runs/
+wandb/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.parquet
+*.csv
+*.tsv
+*.arrow
+*.pt
+*.bin
+*.h5
+
+# Secrets
+.env
+secrets.json
+*.key
